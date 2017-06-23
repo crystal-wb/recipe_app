@@ -1,18 +1,18 @@
             @font-face{
                 font-family: billy-angel_rainbow;
-                src: url(/recipe_app/public/personal_use_fonts/rainbow_bridge_personal_use.ttf);
+                src: url(/personal_use_fonts/rainbow_bridge_personal_use.ttf);
             }
             @font-face{
                 font-family: cookie-monster;
-                src: url(/recipe_app/public/personal_use_fonts/cookie-monster.ttf);
+                src: url(/personal_use_fonts/cookie-monster.ttf);
             }
             @font-face{
                 font-family: cutie-patootie-skinny;
-                src: url(recipe_app/public/personal_use_fonts/cutie-patootie-skinny.ttf);
+                src: url(/personal_use_fonts/cutie-patootie-skinny.ttf);
             }
             @font-face{
                 font-family: cutie-patootie-medium;
-                src: url(recipe_app/public/personal_use_fonts/cutie-patootie.ttf);
+                src: url(/personal_use_fonts/cutie-patootie.ttf);
             }
             body{
                 margin: 0;
@@ -36,7 +36,7 @@
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
-                font-size: 20px;
+                font-size: 30px;
                 color: black;
                 font-family: cutie-patootie-medium;
             }
@@ -56,7 +56,7 @@
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
-                font-size: 20px;
+                font-size: 30px;
                 color:#ff9900;
                 font-family: cutie-patootie-medium;
             }
@@ -66,7 +66,7 @@
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
-                font-size: 20px;
+                font-size: 40px;
                 color:green;
                 font-family: cutie-patootie-medium;
             }
@@ -80,8 +80,9 @@
             
             .style1{
                 text-align: center;
-                font-family: cookie-monster;
+                font-family: cutie-patootie-medium;
                 color: #FA6900;
+                padding-bottom: 0px;
             }
     
             h1{
@@ -103,10 +104,10 @@
             
             td{
                 border: solid #69D2E7;
-                font-family: cookie-monster;
+                font-family: cutie-patootie-skinny;
             }
             th{
-                font-family: billy-angel_rainbow;
+                font-family: cutie-patootie-medium;
                 color:white;
             }
             a{
