@@ -4,6 +4,8 @@
         <title>Home</title>
     <title>Recipe Fun</title>
     <%= csrf_meta_tags %>
+    <link rel="icon" href="/images/favicon_pineapple.png" type="image/png">
+    <link rel="stylesheet" href="stylesheet.css">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -15,16 +17,7 @@
                 <a href="/add">Add a Recipe</a>
                 <a href="/home">Home</a>
             </nav>
-            <h1>Welcome to Recipe Fun!</h1>
-            <div id="tagline">So What's Cooking?</div>
         </header>
     <%= yield %>
-    <footer>
-            <address>
-                <p>Call Me | (252)767-7123</p>
-                <p>Email Me | <a href="mailto:crystal.williams.brown@gmail.com">crystal.williams.brown@gmail.com</a></p>
-                <p>Snail Mail Me| 90 Mitchell Store Road, Youngsville, NC 27596</p>
-            </address>
-        </footer>
   </body>
 </html>

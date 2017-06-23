@@ -17,26 +17,15 @@
             body{
                 margin: 0;
                 font-family: cutie-patootie-skinny;
-            }
-            .aboutbody{
-                background-color: #ff99cc;
-            }
-            .workbody{
-                background-color: #ff9900;
-            }
-            .contactbody{
-                background-color: #663366;
-            }
-            .hobbiesbody{
-                background-color: #00cccc;
+                background-color: black;
+                color: #FA6900;
             }
             header{
-                background: url("/recipe_app/public/images/6817494-pink-pastry-wallpaper.jpg");
+                background: url("/images/banner_cook.png");
                 background-position: top center;
-                background-repeat: repeat;
-                height: 458px;
-                background-size: cover;
-                padding-bottom:25px;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                height: 400px;
             }
             nav{
                 overflow: hidden;
@@ -47,8 +36,8 @@
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
-                font-size: 30px;
-                color:white;
+                font-size: 20px;
+                color: black;
                 font-family: cutie-patootie-medium;
             }
             nav a:visited{
@@ -58,7 +47,7 @@
                 padding: 14px 16px;
                 text-decoration: none;
                 font-size: 30px;
-                color:#663366;
+                color:white;
                 font-family: cutie-patootie-medium;
             }
             nav a:hover{
@@ -67,7 +56,7 @@
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
-                font-size: 30px;
+                font-size: 20px;
                 color:#ff9900;
                 font-family: cutie-patootie-medium;
             }
@@ -77,172 +66,60 @@
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
-                font-size: 30px;
-                color:#ff99ff;
+                font-size: 20px;
+                color:green;
                 font-family: cutie-patootie-medium;
             }
+            
+            #search{
+                text-align: center;
+                font-family:cutie-patootie-medium;
+                color:#FA6900;
+                margin: auto;
+            }
+            
+            .style1{
+                text-align: center;
+                font-family: cookie-monster;
+                color: #FA6900;
+            }
+    
             h1{
                 color:#FF003C;
                 opacity: 0.8;
                 text-align:center;
                 margin-top: 242px;
-                background-color: #FABE28;
                 font-family: billy-angel_rainbow;
                 font-size: 50px;
                 padding-top: 12px;
                 padding-bottom: 14px;
                 margin-bottom: 3px;
             }
-            #return{
-                text-align: center;
+            table{
+                border-color: #FA6900;
+                border: solid;
+                text-align: center
+            }
+            
+            td{
+                border: solid #69D2E7;
                 font-family: cookie-monster;
-                font-size: 40px;
             }
-            #return a{
-                text-decoration: none;
-                color:white;
-            }
-            .style1{
-                margin-top: 40px;
-                padding-top: 50px;
-                color:#FF003C;
-                text-align: center;
-                font-family: cookie-monster;
-                font-size: 80px;
-            }
-            .picstyle1{
-                display: block;
-                margin-left: auto;
-                margin-right: auto
-            }
-            #about img{
-                width:30%;
-            }
-            #about {
-                margin-top: 20px;
-                text-align: center;
-                background:url(/images/text_bg_1.png);
-                padding-bottom: 20px;
-                color:#FF003C;
-            }
-            #work {
-                color:white;
-                margin-top: 20px;
-                text-align: justify;
-                background:url(/images/text_bg_2.png);
-                padding-bottom: 20px;
-            }
-             #hobbies {
-                color:white;
-                margin-top: 20px;
-                background:url(/images/text_bg_3.png);
-                padding-bottom: 20px;
-            }
-             #contact {
-                margin:auto;
-                background:url(/images/text_bg_4.png);
-                padding-bottom: 20px;
-                text-align: center;
-            }
-            #contact img{
-                width:40px;
-                height:40px;
-                padding-right: 25px;
-            }
-            #contact p{
-                text-align: justify;
-                margin-left:425px;
-                color: #FABE28;
-            }
-            #hobbies ol{
-                text-align: left;
-                width:90%;
-                margin:auto;
-                background-color: rgba(0,193,118,0.5);
-                border:dashed white 1px;
-            }
-            .style2{
-                margin-top: 40px;
-                padding-top: 50px;
-                margin-left: 40px;
-                color:#FF003C;
-                font-family: cookie-monster;
-                font-size: 80px;
-            }
-            .style3{
-                margin-top: 40px;
-                padding-top: 50px;
-                padding-bottom: 40px;
-                color:white;
-                text-align: center;
-                border:dashed white 1px;
-                font-family: cookie-monster;
-                font-size: 80px;
-            }
-            .style4{
-                margin-top: 40px;
-                padding-top: 50px;
-                padding-bottom: 40px;
-                color:#FABE28;
-                text-align: center;
-                font-family: cookie-monster;
-                font-size: 80px;
-            }
-            #logo{
-                height:40px;
-                width:40px;
-                float:left;
-                }
-            #kicker{
-                color:#FF003C;
-                opacity: 0.8;
-                text-align:center;
-                font-size:1.3em;
-                padding-top:10px;
-                padding-bottom: 12px;
-                background-color: #FABE28;
+            th{
                 font-family: billy-angel_rainbow;
-                }
-            p{
-                padding-bottom: 10px;
-                padding-top: 12px;
-                width:75%;
+                color:white;
             }
-            #about p{
-                text-align: justify;
-                margin:auto;
-                padding-bottom: 50px;
-                font-family: cutie-patootie-medium;
-            }
-            ul {
-                list-style-image: url('/images/heart_bullet_yellow.png');
-                list-style-position: inside;
-            }
-            li{
-               border:dashed #FF003C 1px;
-               padding-top: 12px;
-               padding-bottom: 14px;
-            }
-            #hobbies li{
-                border:solid white 1px;
-                text-indent: 10px;
-            }
-            .signoff{
-                text-align: left
-            }
-            footer{
-                margin-top: 30px;
-                background-color: #00C176;
-                color: white;
-                font-size: 25px;
-                padding-top: 14px;
-                padding-bottom: 16px;
-                font-family: cutie-patootie-skinny;
-            }
-            footer address a{
+            a{
                 text-decoration: none;
-                font-family: Arial;
+                color: #69D2E7;
             }
-            footer address{
-                margin-left: 20px;
+        
+            p{
+                margin-top: 40px;
+                padding-top: 50px;
+                color:#FA6900;
+                text-align: center;
+                font-family: cookie-monster;
+                font-size: 17px;
             }
+            
