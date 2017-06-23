@@ -1,0 +1,30 @@
+<div>
+    <table>
+    <tr>
+        <th>Picture</th>
+        <th>Title</th>
+        <th>Diffculty</th>
+        <th>Cook Time</th>
+        <th>Ingredients</th>
+        <th>Directions</th>
+    </tr>
+    <% @recipes.each do |recipe|%>
+    <tr>
+        <td>
+            <% if recipe.picture==nil%>
+                <img height='100' src='/shell.jpg'>
+                <% else %>
+                <img height='100'src= '<%= recipe.picture %>'>
+            <%end%>
+        </td>
+        <td><%= recipe.title %>
+        <a href="/update?id=<%=recipe.id%>">Edit</a></td>
+        <td><%= recipe.difficulty %></td>
+        <td><%= recipe.cook_time %></td>
+        <td><%= recipe.ingredients %></td>
+        <td><%= recipe.directions %></td>
+    </tr>
+    <% end %>
+</table>
+    
+</div>

@@ -1,18 +1,18 @@
             @font-face{
                 font-family: billy-angel_rainbow;
-                src: url(/resume/personal_use_fonts/rainbow_bridge_personal_use.ttf);
+                src: url(/recipe_app/public/personal_use_fonts/rainbow_bridge_personal_use.ttf);
             }
             @font-face{
                 font-family: cookie-monster;
-                src: url(/resume/personal_use_fonts/cookie-monster.ttf);
+                src: url(/recipe_app/public/personal_use_fonts/cookie-monster.ttf);
             }
             @font-face{
                 font-family: cutie-patootie-skinny;
-                src: url(/resume/personal_use_fonts/cutie-patootie-skinny.ttf);
+                src: url(recipe_app/public/personal_use_fonts/cutie-patootie-skinny.ttf);
             }
             @font-face{
                 font-family: cutie-patootie-medium;
-                src: url(/resume/personal_use_fonts/cutie-patootie.ttf);
+                src: url(recipe_app/public/personal_use_fonts/cutie-patootie.ttf);
             }
             body{
                 margin: 0;
@@ -121,7 +121,7 @@
             #about {
                 margin-top: 20px;
                 text-align: center;
-                background:url(/resume/images/text_bg_1.png);
+                background:url(/images/text_bg_1.png);
                 padding-bottom: 20px;
                 color:#FF003C;
             }
@@ -129,18 +129,18 @@
                 color:white;
                 margin-top: 20px;
                 text-align: justify;
-                background:url(/resume/images/text_bg_2.png);
+                background:url(/images/text_bg_2.png);
                 padding-bottom: 20px;
             }
              #hobbies {
                 color:white;
                 margin-top: 20px;
-                background:url(/resume/images/text_bg_3.png);
+                background:url(/images/text_bg_3.png);
                 padding-bottom: 20px;
             }
              #contact {
                 margin:auto;
-                background:url(/resume/images/text_bg_4.png);
+                background:url(/images/text_bg_4.png);
                 padding-bottom: 20px;
                 text-align: center;
             }
@@ -215,7 +215,7 @@
                 font-family: cutie-patootie-medium;
             }
             ul {
-                list-style-image: url('/resume/images/heart_bullet_yellow.png');
+                list-style-image: url('/images/heart_bullet_yellow.png');
                 list-style-position: inside;
             }
             li{
