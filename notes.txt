@@ -1,0 +1,9 @@
+-add a recipe
+-name the recipe
+-state the prep time
+-state the cook time
+-pick level of difficulty
+-add ingredient list
+-add recipe creator name
+-edit recipe
+-search recipe
