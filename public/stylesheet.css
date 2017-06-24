@@ -37,7 +37,7 @@
                 padding: 14px 16px;
                 text-decoration: none;
                 font-size: 30px;
-                color: black;
+                color: #69D2E7;
                 font-family: cutie-patootie-medium;
             }
             nav a:visited{
@@ -105,6 +105,8 @@
             td{
                 border: solid #69D2E7;
                 font-family: cutie-patootie-skinny;
+                padding-left: 11px;
+                padding-right: 11px;
             }
             th{
                 font-family: cutie-patootie-medium;
